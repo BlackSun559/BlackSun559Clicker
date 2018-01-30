@@ -22,4 +22,4 @@ Autoplay.handleClicking = function()
 	Game.ClickCookie();
 }
 
-Autoplay.autoPlayer = setInterval(Autoplay.run, 300);
+Autoplay.autoPlayer = setInterval(Autoplay.run, 100);
