@@ -1,4 +1,4 @@
-var AutoPlay;
+var Autoplay;
 
 Autoplay.autoPlayer = setInterval(Autoplay.run, 300);
 
