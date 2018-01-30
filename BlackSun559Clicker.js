@@ -1,5 +1,7 @@
 var Autoplay;
 
+if(!Autoplay) Autoplay = {};
+
 Autoplay.run = function()
 {
 	Autoplay.handleGoldenCookies();
