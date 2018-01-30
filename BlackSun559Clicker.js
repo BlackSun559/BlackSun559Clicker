@@ -1,7 +1,5 @@
 var Autoplay;
 
-Autoplay.autoPlayer = setInterval(Autoplay.run, 300);
-
 Autoplay.run = function()
 {
 	Autoplay.handleGoldenCookies();
@@ -21,3 +19,5 @@ Autoplay.handleClicking = function()
 {
 	Game.ClickCookie();
 }
+
+Autoplay.autoPlayer = setInterval(Autoplay.run, 300);
